@@ -28,3 +28,14 @@ exclude:
 
 paginate: 5
 paginate_path: /page:num/
+
+category_archive:
+  type: jekyll-archives
+  path: /posts/categories/
+
+jekyll-archives:
+  enabled:
+    - categories
+  layouts: archive-taxonomy
+  permalinks:
+    category: /posts/categories/:name/
