@@ -39,3 +39,14 @@ jekyll-archives:
   layouts: archive-taxonomy
   permalinks:
     category: /posts/categories/:name/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments:
+        provider: "disqus"
+          disqus:
+            shortname: "svenamann"
