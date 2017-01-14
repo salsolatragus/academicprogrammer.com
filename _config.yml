@@ -31,7 +31,7 @@ category_archive:
 jekyll-archives:
   enabled:
     - categories
-  layouts: archive-taxonomy
+  layout: archive-taxonomy
   permalinks:
     category: /posts/categories/:name/
 
