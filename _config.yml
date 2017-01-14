@@ -1,33 +1,28 @@
 locale: "en"
-title: Academic Programmer
-email: me@academic-programmer.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+title: Academics code
+title_separator: "::"
+name: "Sven Amann"
+email: sven@academicscode.com
+description: >
+  Software, the final frontier.
+  These are the voyages of a programmer. His five-year mission: to explore the
+  strange world of Academia, to seek his PhD while staying true to Clean Code,
+  to boldly go where no man has gone before.
+url: "http://academicscode.com"
+baseurl: ""
+theme: minimal-mistakes-jekyll
 permalink: /posts/:year/:month/:title/
 
 
 
 
-twitter_username: svamann
-github_username:  salsolatragus
-
-markdown: kramdown
-theme: minimal-mistakes-jekyll
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-archives
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-paginate: 5
-paginate_path: /page:num/
+twitter:
+  username: svamann
+social:
+  links:
+    - "https://twitter.com/svamann"
+    - "https://de.linkedin.com/in/sven-amann-b4a14979"
+    - "https://www.xing.com/profile/Sven_Amann5"
 
 category_archive:
   type: jekyll-archives
@@ -40,13 +35,42 @@ jekyll-archives:
   permalinks:
     category: /posts/categories/:name/
 
+paginate: 5
+paginate_path: /page:num/
+
+author:
+  name: "Sven Amann"
+  avatar: "/assets/images/avatar-sven.png"
+  bio: "Just an academic programmer"
+  uri: http://sven-amann.de
+  twitter: svamann
+  linkedin: sven-amann-b4a14979
+  xing: Sven_Amann5
+  github: salsolatragus
+  #bitbucket: salsolatragus
+  stackoverflow: 1372671/sven-amann
+  youtube: letsdeveloper
+
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      comments:
-        provider: "disqus"
-          disqus:
-            shortname: "svenamann"
+      author_profile: true
+      comments: true
+
+markdown: kramdown
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "svenamann"
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+exclude:
+  - Gemfile
+  - Gemfile.lock
