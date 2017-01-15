@@ -1,14 +1,14 @@
 locale: "en"
-title: Academics code
+title: Academic Programmer
 title_separator: "::"
 name: "Sven Amann"
-email: sven@academicscode.com
+email: sven@academicprogrammer.com
 description: >
   Software, the final frontier.
   These are the voyages of a programmer. His five-year mission: to explore the
   strange world of Academia, to seek his PhD while staying true to Clean Code,
   to boldly go where no man has gone before.
-url: "http://academicscode.com"
+url: "http://academicprogrammer.com"
 baseurl: ""
 theme: minimal-mistakes-jekyll
 permalink: /posts/:year/:month/:title/
