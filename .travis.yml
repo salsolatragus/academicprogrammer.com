@@ -1,0 +1,17 @@
+language: ruby
+rvm:
+- 2.3.1
+cache: bundler
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - secure: cQEqvhDkOEAhB1YIsUjvMDQ9T2wYSB8RjME1wXNLGXMixdja9Y9ko23lnaa4QKTKeZ43yQmx0dmFjl6ol3KAKRFOkpzV0AhFI2yt/S5uCnbHBX1N9F7xZKex0apOGAp0/apoNYFHsqTdhAHXtv8UzB8y/iVPR024r//rlj7eYrT414sJ8ISSsf6ASHbzMv31tHQ7ZtMtPk5W84bVQVw685uun/dIe3Keaoui6A75SMkiuNeUobQAQdlLTkoEfwvcJOLkUX1cQT1gYNETak1FSSyCp2QSGwlLDWv/BWTOMzk/kX7wM9SnLxyyCjP3uTmL5guh8BdKj8l/34lcI4qo/TDTJ8fF06+8LUXObW/rOjUaibyXhAQfBpaJx9GxIlQoFzv3gzcSaZJ3tMV0CNpC6FXiws/nMp5HbdnJc2x7NL3722mditmAfPxgG4BPPryP5cSEtaEKTJUrPXvYB+n8toMopZgDE1SrYkKyyd43y/48u0YuntvcE9hNmBVWAAnUFk58A5LYhxpwhLWtHh6r/0IOWS+aPU6Uyhh3XbYsoLhNWwSc2lez65znEI19BqoioCG/NXz0zT8J3bTdX7K0csqnRhnUaj11s5eER57mpR4QYAE2+X1mXpPwWROdi4k4MhMh+WHY8Ot6duxtjOd9GxXsAGHteipj1vw6liW4aQ4=
+  - secure: XRzIIs635r65kF0r4VPtkMg53/zGWVeIhx8lHfH9K23qbDj1C0Pf+lf8UjlgT9gX9eW8rzSyg8tlfwWrPfhOZruPFr0QFQpcxjJbGy0p/Bcge5Mpa5eCQG6i89FiuakIi4KWWyCujKYEflFEi4808/xNNxFDIESHd7zioPRTC8d+mAB4ZObELu7DMJFR84ZvofuNktmOk/spGsM3/nISTrlM8oww5G0V+/jgx6gBz1lXpFOP+1o1oL80ISClr3oawY9ZaHF+f29R4+2KsfIJlGgIEPgtCILtfRqis1pI+dPMV2STiRDtHGRSYphkvIKMU9BE2GjFTQOSUzJJOkcjnrvjVrHznyV4jqpZFAR0kdH4qtgx2Nu4wJ6tkoCTSfCm/ELyYCcfAiAg2geVEs3vNhOcWgw2Pgj019MDgyZJQwLL9Dhq1yiz2B9m0rbz42JxuPV9enGA90NrMW9Y/ks1a75MY7E+MOubTCo6wJ8u95B6wrkohJvpwguqeI92FBdbKR0qdJUWtdNVkylSvV2n4lBFV4Up3M8/GTXXBJq4YgD/veLDy35SSaNN1iW8L0maOqBIpbbYp4IN7hjFMI5k0OrwNlHa8jkhnOlPy5E4Oep72Y1ScZJADtgYyztA49Jr5/NOqLKPC7jOTKAi09xIG389t6s4yQCaKuEeHaWZLfM=
+install:
+- bundle install
+script:
+- bundle exec jekyll build
+- bundle exec htmlproofer ./_site --http-status-ignore "999" --url-swap "https?\:\/\/(127\.0\.0\.1\:4000|localhost\:4000|academicprogrammer\.com):" --check-html
+after_success:
+- sudo apt-get install ncftp
+- ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASS" ftp.sven-amann.de / ./_site/*
