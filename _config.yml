@@ -13,7 +13,12 @@ baseurl: ""
 theme: minimal-mistakes-jekyll
 permalink: /posts/:year/:month/:title/
 
+google_site_verification: 0VPP-0JoECBukusgQCRSnujIckDxTfkl2nHFrN14jtQ
 
+analytics:
+  provider: "google"
+  google:
+    tracking_id: UA-62752140-4
 
 
 twitter:
