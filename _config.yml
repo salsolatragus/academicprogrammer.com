@@ -65,7 +65,7 @@ markdown: kramdown
 comments:
   provider: "disqus"
   disqus:
-    shortname: "svenamann"
+    shortname: "academicprogrammer-com"
 
 gems:
   - jekyll-feed
