@@ -1,14 +1,14 @@
 locale: "en"
-title: Academic Programmer
+title: Academics code
 title_separator: "::"
 name: "Sven Amann"
-email: sven@academicprogrammer.com
+email: sven@academicscode.com
 description: >
   Software, the final frontier.
   These are the voyages of a programmer. His five-year mission: to explore the
   strange world of Academia, to seek his PhD while staying true to Clean Code,
   to boldly go where no man has gone before.
-url: "http://academicprogrammer.com"
+url: "http://academicscode.com"
 baseurl: ""
 theme: minimal-mistakes-jekyll
 permalink: /posts/:year/:month/:title/
@@ -20,6 +20,7 @@ analytics:
   google:
     tracking_id: UA-62752140-4
 
+teaser: "/assets/images/teaser_coding_academics_500x300.png"
 
 twitter:
   username: svamann
@@ -46,7 +47,7 @@ paginate_path: /page:num/
 author:
   name: "Sven Amann"
   avatar: "/assets/images/avatar-sven.png"
-  bio: "Just an academic programmer"
+  bio: "Just a programmer in Academia"
   uri: http://sven-amann.de
   twitter: svamann
   linkedin: sven-amann-b4a14979
@@ -70,7 +71,7 @@ markdown: kramdown
 comments:
   provider: "disqus"
   disqus:
-    shortname: "academicprogrammer-com"
+    shortname: "academicscode-com"
 
 gems:
   - jekyll-feed
