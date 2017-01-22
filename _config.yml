@@ -47,7 +47,7 @@ paginate_path: /page:num/
 author:
   name: "Sven Amann"
   avatar: "/assets/images/avatar-sven.png"
-  bio: "Just a programmer in Academia"
+  bio: "Just an idealistic programmer in academia"
   uri: http://sven-amann.de
   twitter: svamann
   linkedin: sven-amann-b4a14979
