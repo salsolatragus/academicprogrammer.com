@@ -3,6 +3,8 @@ title: Continuous Blogging
 categories:
   - Learning
   - Meta
+header:
+  teaser: http://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png
 
 ---
 
@@ -17,6 +19,8 @@ Fortunately, for both him and me, John is following his own advice and offers so
 For the last two weeks, I got one email every Monday and Thursday, delivering a lesson of the course. I went through finding a theme, setting up the blog,[^2] finding topics, and setting up a schedule. Although his receipts are no rocket science, I got a few interesting ideas and even got his opinion when I mailed him a question. I think the most important thing was having John push me through this. Participating in the course made me commit to take this seriously. Furthermore, it made me commit to continuously blog[^3] and actively pursue traffic for my blog.
 
 So this is it. My thanks to John. And the birthday of "Academics code."
+
+[![Simple Programmer Blogging Badge](http://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png){: .align-center }](http://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/)
 
   [^1]: The subscription to the email course is free, but the companion workbook costs a small fee. I found the book to be helpful, if not strictly necessary. Most of all, it allowed me to go through the course at my own pace. 
   [^2]: Didn't follow his advice regarding hosting and using Wordpress, because I recently came to like [Jekyll](http://jekyllrb.com) and already have [a host I trust with my websites](http://all-inkl.com). 
