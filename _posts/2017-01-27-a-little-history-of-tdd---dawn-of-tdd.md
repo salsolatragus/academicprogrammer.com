@@ -1,5 +1,5 @@
 ---
-title: A Little History of TDD - The Dawn of TDD
+title: The Dawn of TDD
 categories:
   - Testing
   - TDD
@@ -14,7 +14,7 @@ But what is this TDD? Where did it come from? How did it attract both fanboys an
 
 Let's take a step back and do a little research, before we jump in screaming and shouting, shall we?
 
-## The Dawn of TDD
+## A Little History of TDD
 
 About 41 years ago, in October 1976, Glenford Myers published his book "[Software Reliability][sw-reliability]," which states as an axiom that "a developer should never test their own code." The Agile Alliance refers to the following years as [the Dark Age of Developer Testing][aa-tdd]. A time where valiant developers fought (not-so-)heroic battles against evil QA departments, who would try to blame them for producing buggy code. And it was not until the early 90's that the dawn of a new era began.
 
