@@ -3,6 +3,7 @@ title: TDD vs. Architecture
 categories:
   - Quality
   - Testing
+modified: 2017-02-05
 
 ---
 
@@ -10,9 +11,9 @@ In 2007, [Robert C. Martin (Uncle Bob) and James O. Coplien (Cope) had a discuss
 
 Cope's main concern is the idea that by practicing TDD architecture emerges and evolves automagically, even without extensive knowledge of the domain. He, and others he talked to, witnessed repeatedly that this attitude leads to dead ends in architecture that cannot (practically) be fixed. Uncle Bob agrees that this idea, which was the conviction of many agilists around 2000, is and has always been bullshit. Domain knowledge and a certain amount of consideration are necessary, but should be kept to the absolute minimum. As Kent Beck put it in "[XP Explained][xp-explained]": "Yes, do some up-front architecture, but don't knock yourselves out" and "you don't want to be guessing."
 
-> Personally, I think Cope raises a very important point here. In my experience, it is very hard to refactored away from an unfitting design, also because unit tests do not well support moving functionality between classes and modules. So we should consider whatever domain knowledge we have available, if it can save us from such work. Unfortunately, sometimes there just isn't a business expert with the necessary domain knowledge (available), in which case we have to make do with the next-best thing we've got.
+> Personally, I think Cope raises a very important point here. In my experience, it is very hard to refactored away from an unfitting design, also because unit tests do not well support moving functionality between classes and modules. So we should consider whatever domain knowledge we have available, to save us from such work. In a fact, Uncle Bob also agrees that [Little Design Up Front (LDUF) makes perfect sense][ubob-tdd-lduf].
 >
-> With my benchmark pipeline [MuBench][mubench] for example, we went through multiple architecture changes in the past. As this pipeline is an integral part of my PhD, I'm probably the closest thing to a business expert that one might hope to find. We plan our architecture (BDD-style, if you so will), but still, sometimes I get it wrong. So we build the architecture according to what I currently think best fits our usecases and accept that this might change in the future, as we reach a better understanding of how we need the system to work.
+> Unfortunately, sometimes there just isn't a business expert with the necessary domain knowledge (available), in which case we have to make do with the next-best thing we've got. With my benchmark pipeline [MuBench][mubench] for example, we went through multiple architecture changes in the past. As this pipeline is an integral part of my PhD, I'm probably the closest thing to a business expert that one might hope to find. We plan our architecture (BDD-style, if you so will), but still, sometimes I get it wrong. So we build the architecture according to what I currently think best fits our use cases and accept that this might change in the future, as we reach a better understanding of how we need the system to work.
 >
 > I've found that architecture changes often reduce test-code quality. When migrating tests to another object, we need to ensure they still make sense. If not, they should be deleted and replace by sensible ones, if necessary.
 
@@ -25,5 +26,6 @@ On the aspect of professionalism, Uncle Bob explains that he's convinced that sh
   [dawn-of-tdd]: {{ site.baseurl }}{% post_url 2017-01-27-a-little-history-of-tdd---dawn-of-tdd %}
   [cope-ubob]: https://www.infoq.com/interviews/coplien-martin-tdd
   [xp-explained]: https://books.google.de/books?id=-DNcBAAAQBAJ
+  [ubob-tdd-lduf]: https://web.archive.org/web/20110713062831/http://blog.objectmentor.com/articles/2009/04/25/the-scatology-of-agile-architecture
   [design-by-contract]: https://en.wikipedia.org/wiki/Design_by_contract
   [mubench]: https://github.com/stg-tud/MUBench
