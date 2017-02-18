@@ -5,3 +5,11 @@ iframe.slideshare {
   max-width: 100%;
   margin: 0 auto 1.3em;
 }
+
+figure figcaption {
+  text-align: center;
+}
+
+figure figcaption :last-child {
+  margin-bottom: 0;
+}
