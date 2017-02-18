@@ -4,6 +4,7 @@ categories:
   - Quality
   - Testing
   - Talks
+modified: 2017-02-18
 
 ---
 
@@ -15,4 +16,9 @@ To keep the discussion going, I'm planning to pour the different parts of my tal
 
 {% include slideshare.html key="nYs5QYYzHpM6hW" %}
 
+And here's the accompanying posts:
+
+* Part 1: [How I Came to Test][how-I-came-to-test]
+
   [etffm17]: https://entwicklertag.de/frankfurt/2017/
+  [how-I-came-to-test]: {{ site.baseurl }}{% post_url 2017-02-19-how-I-came-to-test %}
