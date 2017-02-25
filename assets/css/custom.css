@@ -13,3 +13,76 @@ figure figcaption {
 figure figcaption :last-child {
   margin-bottom: 0;
 }
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.speech-bubble {
+  position: relative;
+  padding: 15px;
+  margin: 2em 1em 2em 0;
+  color: #000;
+  background: #E3F0FF;
+  background: linear-gradient(top, #C0D0F0, #E3F0FF);
+  border-radius: 10px;
+  border:3px solid #C0D0F0;
+}
+
+.speech-bubble + .speech-bubble {
+  margin-top: -1em;
+}
+
+.speech-bubble:before {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  width: 0;
+  border-style: solid;
+}
+
+.speech-bubble:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  width: 0;
+  border-style: solid;
+}
+
+.speech-bubble.left {
+  margin-left: 30px;
+  margin-right: 10%;
+}
+
+.speech-bubble.left:before {
+  top: 13px;
+  left: -30px;
+  border-width: 12px 30px 12px 0;
+  border-color: transparent #C0D0F0;
+}
+
+.speech-bubble.left:after {
+  top: 17px;
+  left: -21px;
+  border-width: 8px 21px 8px 0;
+  border-color: transparent #E3F0FF;
+}
+
+.speech-bubble.right {
+  margin-left: 10%;
+  margin-right: 30px;
+}
+
+.speech-bubble.right:before {
+  top: 13px;
+  right: -30px;
+  border-width: 12px 0 12px 30px;
+  border-color: transparent #C0D0F0;
+}
+
+.speech-bubble.right:after {
+  top: 17px;
+  right: -21px;
+  border-width: 8px 0 8px 21px;
+  border-color: transparent #E3F0FF;
+}
