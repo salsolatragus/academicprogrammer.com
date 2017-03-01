@@ -3,6 +3,7 @@ title: Is TDD Just Unit-Test Waste?
 categories:
   - Quality
   - Testing
+modified: 2017-03-01
 
 ---
 
@@ -16,7 +17,7 @@ Cope observes further that test code may easily become larger then the productio
 
 * Tests should be primarily functional tests designed by business people, i.e., derived from and clearly linked to business requirements. Tests that do not have this property should be deleted, because they are just "programmers' fantasies," unless you have a strong third-party oracle.
 * Low-risk tests, i.e., tests that practically never fail, give close to no information. Therefore, *any* test that did not fail within a year should be deleted.
-* Tests should be converted to assertions, whenever they express pre- or post-conditions of an operation. Trust your stress, integration, and system tests to reveal input that violates assertions. Ideally use this mechanism for failure detection (and possibly also recovery) in the product.
+* Tests should be converted to assertions,[^assertion] whenever they express pre- or post-conditions of an operation or invariants. Trust your stress, integration, and system tests to reveal input that violates assertions. Ideally use this mechanism for failure detection (and possibly also recovery) in the product.
 
 Of course, if you can do testing in direct cooperation with business experts, e.g., in a pair programming or even [mob programming][mob-programming] setting, by all means, *do it*. If you can't, at least test that what you write meets you understanding of the problem. See above. 
  
@@ -49,6 +50,7 @@ Thank you, Cope, for helping me go one step further.
   [fowler-tdd]: https://martinfowler.com/bliki/TestDrivenDevelopment.html
   [wp-tdd-small]: https://en.wikipedia.org/wiki/Test-driven_development#Keep_the_unit_small
   [ud-number-porn]: http://www.urbandictionary.com/define.php?term=number%20porn
+  [^assertion]: Assertion here means an assertion *in the production code*, as opposed to an assertion in a test.
   [mob-programming]: http://mobprogramming.org/
   [seradio-256]: http://www.se-radio.net/2016/05/se-radio-episode-256-jay-fields-on-working-effectively-with-unit-tests/
   [dry]: http://wiki.c2.com/?DontRepeatYourself
