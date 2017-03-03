@@ -3,7 +3,7 @@ title: TDD vs. Architecture
 categories:
   - Quality
   - Testing
-modified: 2017-02-05
+modified: 2017-03-03
 
 ---
 
@@ -22,6 +22,10 @@ On the aspect of professionalism, Uncle Bob explains that he's convinced that sh
 > I absolutely, 100% agree with Bob that shipping untested code is unprofessional. However, "tested" doesn't imply a unit test. Just a test. Even a manual one. I preach this to students regularly: "Do what's reasonable to ensure you deliver. That's the essence of agile." Sounds dead simple, but I still regularly go rampage, because students send me code that they obviously didn't execute even once. It seems to me that a time of rigorously following TDD reduce the chances of such idiocy, but that's merely anecdotal evidence. I digress...
 >
 > Not testing is unprofessional, because you leave others to deal with the mess that you caused. Be it the users of your product or the poor PhD student 3 years down the road, who desperately tries to reproduce your experiment. The idea of having a test (in mind) first certainly helps, but executing it before you ship is the crucial part. Whether this test is a unit test, a manual test, an integration test, or a contract validation... I don't care.
+
+***
+
+[My tweet of this article](https://twitter.com/svamann/status/827993698684305409) caused quite some discussion. Today, Uncle Bob posted [this excellent response](http://ht.ly/xLna309yR8b) on the matter.
 
   [dawn-of-tdd]: {{ site.baseurl }}{% post_url 2017-01-27-a-little-history-of-tdd---dawn-of-tdd %}
   [cope-ubob]: https://www.infoq.com/interviews/coplien-martin-tdd
