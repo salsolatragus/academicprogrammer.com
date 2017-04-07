@@ -4,7 +4,7 @@ categories:
   - Quality
   - Testing
   - Talks
-modified: 2017-02-18
+modified: 2017-04-07
 
 ---
 
@@ -19,6 +19,8 @@ To keep the discussion going, I'm planning to pour the different parts of my tal
 And here's the accompanying posts:
 
 * Part 1: [How I Came to Test][how-I-came-to-test]
+* Part 2: [Adam and Tests][adam-and-tests]
 
   [etffm17]: https://entwicklertag.de/frankfurt/2017/
   [how-I-came-to-test]: {{ site.baseurl }}{% post_url 2017-02-19-how-I-came-to-test %}
+  [adam-and-tests]: {{ site.baseurl }}{% post_url 2017-03-06-adam-and-tests %}
