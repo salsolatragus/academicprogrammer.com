@@ -14,7 +14,9 @@ There are, however, situations where names are crucial. Like in a job interview.
 
 Another context where I consider names crucial is in code. While people's names are mostly arbitrary identifiers useful to refer to or address someone, names in code also convey meaning. They tell me what I'm looking at. They are important for me to understand the code and should be relatively easy for me to remember, because, ideally, they are just the words I would use to describe what the code does.
 
-I recently did a code review with a student and found myself quite unable to follow his code. The problem wasn't that I couldn't understand the names he'd given to variables. On the contrary, this was fairly easy, since he'd named them all like "obj" and "obj_array." When I asked him about it, he shrugged, said: "I'm bad with names," and continued like the matter had been settled. 
+I recently did a code review with a student and found myself quite unable to follow his code. The problem wasn't that I couldn't understand the names he'd given to variables. On the contrary, this was fairly easy, since he'd named them all like "obj" and "obj_array." When I asked him about it, he shrugged, said: "I'm bad with names," and continued like the matter had been settled.
+
+{% include image.html img="/assets/images/2017-04-07-code-without-names.png" title="Code Without Names" caption="An Excerpt of Some Code the Like of Which I Never Want to See Again." %}
 
 While I can simply ask a person again for her name, it's considerably harder to find out what a variable represents, when it's called "obj." I can't just ask it. So if I don't happen to have the respective code's author around (who also happens to remember what that particular variable is), I'm left to do manual program analysis. A cumbersome task, which becomes even harder in dynamically typed language, where the variable could hold just about anything.
 
