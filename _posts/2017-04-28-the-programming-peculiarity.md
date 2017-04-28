@@ -5,7 +5,7 @@ categories:
 
 ---
 
-Most people cannot construct a building or write a book, yet, it's seems like everybody can program. Isn't that peculiar?
+Most people cannot construct a building or write a book, yet, it seems like everybody can program. Isn't that peculiar?
 
 I just read a ZEIT special magazine about whether today's job market requires everybody to be able to program. While the message was that not everybody needs to be a programmer (but should have a basic understanding of how programming works), various articles mentioned that one could simply learn programming through YouTube videos, if necessary. *Piece of cake!*
 
