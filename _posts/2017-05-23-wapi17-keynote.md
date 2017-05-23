@@ -41,4 +41,6 @@ Brad concludes his keynote with some open challenges:
 * How to coordinate cross-API usage?
 * What are best practices for API design, including metrics, processes and their implementation in development teams, and design guidelines?
 
+[Brad's slides are available online](http://www.cs.cmu.edu/~NatProg/papers/Myers%20WAPI%202017%20talk.pdf).
+
   [wapi]: {{ site.baseurl }}/posts/categories/wapi17
