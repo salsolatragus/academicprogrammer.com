@@ -1,5 +1,8 @@
 ---
 title: "On the Role of Fitness Dimensions in API Design Assessment - An Empirical Investigation"
+categories:
+  - ICSE17
+  - WAPI17
 
 ---
 
