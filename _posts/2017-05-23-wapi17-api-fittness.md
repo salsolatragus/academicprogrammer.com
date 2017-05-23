@@ -8,7 +8,7 @@ categories:
 
 {% include image.html img="/assets/images/2017-05-23-wapi17-api-fittness.png" title="Imed Hammouda about API Fitness" caption="Imed Hammouda about API Fitness" %}
 
-Imed Hammouda introduces API value chains. He picks up the stakeholder groups [Brad Myers introduced earlier]() (API Designers, APU Users, and Product Users) and puts them in a workflow that leads for Business Assets to products. He asks which perspective should be taken when assessing the quality of APIs.
+Imed Hammouda introduces API value chains. He picks up the stakeholder groups [Brad Myers introduced earlier][brad] (API Designers, APU Users, and Product Users) and puts them in a workflow that leads for Business Assets to products. He asks which perspective should be taken when assessing the quality of APIs.
 
 They come up with 23 Fitness Dimensions and grouped these dimensions according to whether they are technical dimensions, i.e., dimensions that every developer agrees on, such as security, and developer-specific dimensions. For the latter, they found that different stakeholders give different priority to these dimensions. Furthermore, some dimensions interplay, in the sense that optimizing for one might compromise the API with respect to another.
 
@@ -17,3 +17,5 @@ Many companies handle this challenge using the concept of personas. A persona is
 The open challenges they currently work on are how to formalize this process of API assessment and how to balance between the difference preferences of stakeholders/personas.
 
 {% include image.html img="/assets/images/2017-05-23-wapi17-api-fittness_assessment.png" title="Assessing APIs with respect to the Expectations of Stakeholders" caption="Assessing APIs with respect to the Expectations of Stakeholders" %}
+
+  [brad]: {{ site.baseurl }}{% post_url 2017-05-23-wapi17-keynote %}
