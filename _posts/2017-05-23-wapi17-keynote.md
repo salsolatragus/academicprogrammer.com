@@ -7,7 +7,7 @@ categories:
 ---
 
 
-{% include image.html img="/assets/images/2017-05-23-wapi17-keynote.png" title="Brad Myers giving the WAPI Keynote" caption="Brad Myers giving the WAPI Keynote" %}
+{% include image.html img="/assets/images/2017-05-23-wapi17-keynote.png" title="Brad Myers giving the WAPI Keynote" %}
 
 API as ubiquitous. For example, [www.programmableweb.com](https://www.programmableweb.com/) lists 17.5k APIs as of today. About 77% of companies rate APIs important too making their systems and data available. The total market for API Web middleware was $5.5 billion in 2014.
 

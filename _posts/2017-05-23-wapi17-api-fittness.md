@@ -6,7 +6,7 @@ categories:
 
 ---
 
-{% include image.html img="/assets/images/2017-05-23-wapi17-api-fittness.png" title="Imed Hammouda about API Fitness" caption="Imed Hammouda about API Fitness" %}
+{% include image.html img="/assets/images/2017-05-23-wapi17-api-fittness.png" title="Imed Hammouda about API Fitness" %}
 
 Imed Hammouda introduces API value chains. He picks up the stakeholder groups [Brad Myers introduced earlier][brad] (API Designers, APU Users, and Product Users) and puts them in a workflow that leads for Business Assets to products. He asks which perspective should be taken when assessing the quality of APIs.
 
