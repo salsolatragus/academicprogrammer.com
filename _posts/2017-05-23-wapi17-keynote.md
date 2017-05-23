@@ -6,6 +6,9 @@ categories:
 
 ---
 
+
+{% include image.html img="/assets/images/2017-05-23-wapi17-keynote.png" title="Brad Myers giving the WAPI Keynote" caption="Brad Myers giving the WAPI Keynote" %}
+
 API as ubiquitous. For example, [www.programmableweb.com](https://www.programmableweb.com/) lists 17.5k APIs as of today. About 77% of companies rate APIs important too making their systems and data available. The total market for API Web middleware was $5.5 billion in 2014.
 
 Brad Myers starts off [our workshop][wapi] with the observation that APIs have many stakeholders, which he groups as API Designers, API Users (developers), and Product Consumers (endusers). Each such group of stakeholders has different views and different requirements/expectations on APIs. For example, while Product Consumers have a restricted view (they may observe when an API crashes or observe its energy consumption behaviour), most of an API's properties (e.g., learnability or usability) are targeted towards API Users. For them, the main goal of APIs is to allow reuse, i.e., to increase their productivity.
