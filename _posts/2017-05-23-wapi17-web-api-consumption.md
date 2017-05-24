@@ -14,7 +14,9 @@ Erik observes that the consumption of Web APIs is very challenging, because they
 
 Erik observes a large gap between the activity in industry vs. the activity of researchers in this field.
 
-Industry proposed a set of formats for the specifications of Web APIs though machine-readable API contracts, which describe information like the APIs base URL, available endpoints, required and optional parameters and data returned by the API, and additional constraints, such as headers, authentication, rate limits, etc.. In his work, Erik aims to provide static verification of Web API Requests against existing specifications. To this end, he extracts properties from the API call and automatically matches it against existing API specifications. Then he detects mismatches between the specification and the call, to assist developer in correcting their API calls.
+Industry proposed a set of formats for the specifications of Web APIs though machine-readable API contracts, which describe information like the APIs base URL, available endpoints, required and optional parameters and data returned by the API, and additional constraints, such as headers, authentication, rate limits, etc.. In his work, Erik aims to provide static verification of Web API Requests against existing specifications. To this end, he extracts properties from the API call and automatically matches it against existing API specifications. Then he detects mismatches between the specification and the call, to assist developer in correcting their API calls. He demonstrates his research prototype, an Atom integration of API Harmony, in a short video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8IJKs7rMjJI" frameborder="0" allowfullscreen></iframe>
 
 Some of the open challenges include, but are not limited to
 
