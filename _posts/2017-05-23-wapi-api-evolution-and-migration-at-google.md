@@ -3,6 +3,7 @@ title: "API Evolution and Migration at Google"
 categories:
   - ICSE17
   - WAPI17
+excerpt: Hyrum Wright reports on how Google evolves its APIs and manages the migration of its entire codebase to new API versions. He discusses various tradeoffs and open challenges for research.
 
 ---
 

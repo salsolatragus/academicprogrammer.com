@@ -3,6 +3,7 @@ title: Human-Centered Methods for Improving API Usability
 categories:
   - ICSE17
   - WAPI17
+excerpt: Brad Myers gives a wonderful keynote to open the 1st Internation Workshop on API Usage and Evolution (WAPI). He discusses problem space of API design and usability, thereby preparing the ground for all subsequent talks in the workshop.
 
 ---
 

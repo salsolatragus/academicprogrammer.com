@@ -3,6 +3,7 @@ title: "Mining Motivated Trends of Usage of Haskell Libraries"
 categories:
   - ICSE17
   - WAPI17
+excerpt: Anand Ashok Sawant presents a preliminary study about why developers migrate between API versions.
 
 ---
 

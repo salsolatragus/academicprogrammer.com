@@ -3,6 +3,7 @@ title: "Opportunities in Software Engineering Research for Web API Consumption"
 categories:
   - ICSE17
   - WAPI17
+excerpt: Web APIs are a sibling of traditional APIs, but their exact relation remains unclear. Erik Wittern gives an introduction into the problems of current Web APIs and presents an integration of IBM's API Harmony into Atom.
 
 ---
 

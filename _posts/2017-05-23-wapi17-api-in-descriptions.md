@@ -3,6 +3,7 @@ title: API Usage in Descriptions of Source Code Functionality
 categories:
   - ICSE17
   - WAPI17
+excerpt: Paige Rodeghero presents a preliminary experiment and how automatically generated method summaries mention API elements.
 
 ---
 

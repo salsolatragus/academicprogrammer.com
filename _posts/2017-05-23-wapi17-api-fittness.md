@@ -3,6 +3,8 @@ title: "On the Role of Fitness Dimensions in API Design Assessment - An Empirica
 categories:
   - ICSE17
   - WAPI17
+excerpt: >
+  Imed Hammouda presents suggests an approach to assess API Design along 23 Fitness Dimensions.
 
 ---
 
