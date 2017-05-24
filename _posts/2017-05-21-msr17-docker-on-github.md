@@ -3,6 +3,8 @@ title: An Empirical Analysis on the Docker Container Ecosystem on Github
 categories:
   - MSR17
   - ICSE17
+header:
+  teaser: /assets/images/2017-05-21-msr17-docker-on-github.png
 
 ---
 

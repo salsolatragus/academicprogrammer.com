@@ -3,6 +3,8 @@ title: Travis Torrent Mining Challenge
 categories:
   - MSR17
   - ICSE17
+header:
+  teaser: /assets/images/2017-05-20-msr17-travis-torrent.png
 
 ---
 
