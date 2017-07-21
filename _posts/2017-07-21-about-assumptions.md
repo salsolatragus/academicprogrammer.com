@@ -11,9 +11,7 @@ At some point during the talk we discussed IDEA's "semantic" expansion of the ed
 
 Then Yann told us that the selection is based on a mysterious thing called *the AST*...[^magic]
 
-"Well... thanks Captain Obvious," I thought.
-
-Why bother to stop and make a fuzz around such an obvious thing?!
+"Well... thanks Captain Obvious," I thought. "Why bother to stop and make a fuzz around such an obvious thing?!"
 
 Truly, why?
 
