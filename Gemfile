@@ -11,4 +11,6 @@ group :jekyll_plugins do
    gem "jekyll-archives"
 end
 
+gem 'pygments.rb'
+
 gem 'html-proofer'

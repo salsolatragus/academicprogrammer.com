@@ -69,6 +69,7 @@ defaults:
       comments: true
 
 markdown: kramdown
+highlighter: pygments
 
 comments:
   provider: "disqus"
