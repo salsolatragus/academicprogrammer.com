@@ -3,7 +3,7 @@ ruby RUBY_VERSION
 
 gem "jekyll", "3.3.1"
 
-gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll", "4.1.1"
 
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
