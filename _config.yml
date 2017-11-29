@@ -76,7 +76,7 @@ comments:
   disqus:
     shortname: "academicscode-com"
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-archives

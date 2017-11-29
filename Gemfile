@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "jekyll", "3.3.1"
+gem "jekyll", "3.6.2"
 
-gem "minimal-mistakes-jekyll", "4.1.1"
+gem "minimal-mistakes-jekyll", "4.7.1"
 
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
