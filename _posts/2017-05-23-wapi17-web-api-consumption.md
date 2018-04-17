@@ -21,7 +21,7 @@ Industry proposed a set of formats for the specifications of Web APIs though mac
 
 Some of the open challenges include, but are not limited to
 
-* ensuring that API speicfications are up to date,
+* ensuring that API specifications are up to date,
 * inferring specification, e.g., from available text documentation, and
 * learning how actual API usage might deviate from the intended usage/specification.
 
