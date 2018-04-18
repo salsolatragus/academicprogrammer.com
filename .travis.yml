@@ -21,5 +21,4 @@ script:
 - bundle exec htmlproofer ./_site --disable-external --allow-hash-href --url-swap "https?\:\/\/(127\.0\.0\.1\:4000|localhost\:4000|academicscode\.com):" --check-html
 
 after_success:
-- sudo apt-get install ncftp
 - ncftpput -R -z -u "$FTP_USER" -p "$FTP_PASS" ftp.sven-amann.de / ./_site/*
