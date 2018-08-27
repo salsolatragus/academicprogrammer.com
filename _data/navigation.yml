@@ -1,3 +1,5 @@
 main:
   - title: "Posts by Category"
     url: /posts/categories/
+  - title: Imprint
+    url: /imprint
