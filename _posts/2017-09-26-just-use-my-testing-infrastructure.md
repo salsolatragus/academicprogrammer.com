@@ -3,6 +3,7 @@ title: Just Use My Testing Infrastructure
 categories:
   - Maven
   - Testing
+  - Developer Tools
 
 ---
 
