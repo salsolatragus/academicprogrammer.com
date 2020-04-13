@@ -6,9 +6,8 @@ env:
   - secure: pCK32LB7jj7rphFUIFMbMBZXpxqdT77Duveh19QUV6H5qoJ6Gq+6xHdn56hu6xgNWt+I00UXPNOWB7Zv4tPd4toHItymyaxdTfXoa2LxYAr1ncSSJbM86GGq9tvL2hI9Kz46q84yGVavqMFOEWhqFY74Ew/CCpZSz6PTEPKnY7nGVbvuGRPTj0cQzGbuhv1LaHc0exUrCXheskZrVMoHgS1YUXbOISfnIhqN+JDJ5QuI+GbKMAbzluyFV1dCljaOwKmoXcGks3GEiNDdxA9w6qWheaoyC+A259MQezdyAIB6xzvOrH+7I5nr88KFF0oPFbkg6yLJAxohUcZZFzOGZg==
 
 build:
-  pre_ci:
-    - bundle install
   ci:
+    - bundle install
     - bundle exec jekyll build
     - bundle exec htmlproofer ./_site --disable-external --allow-hash-href --url-swap "https?\:\/\/(127\.0\.0\.1\:4000|localhost\:4000|sven-amann\.de):" --check-html
   post_ci:
