@@ -7,14 +7,5 @@ env:
 
 build:
   ci:
-    - bundle install
-    - bundle exec jekyll build
-    - bundle exec htmlproofer ./_site --disable-external --allow-hash-href --url-swap "https?\:\/\/(127\.0\.0\.1\:4000|localhost\:4000|sven-amann\.de):" --check-html
-  post_ci:
-    - apt-get install ncftp
-    - ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASS" w00952b3.kasserver.com / ./_site/*
-  cache: true
-  cache_dir_list:
-    - /usr/local/rvm/gems/$(rvm strings 2.6.3)/gems
-    - /usr/local/rvm/gems/$(rvm strings 2.6.3)/specifications
-    - $SHIPPABLE_BUILD_DIR
+    - ./build/build
+    - ./build/deploy
