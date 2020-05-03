@@ -1,4 +1,21 @@
 
+.masthead {
+  background-color: #24292e;
+  color: white;
+}
+
+.greedy-nav {
+  background-color: #24292e;
+}
+
+#main a, #main a:visited {
+  color: black;
+}
+
+#main a:hover {
+  color: #33A;
+}
+
 iframe.slideshare {
   display: block;
   border:1px solid #CCC;
